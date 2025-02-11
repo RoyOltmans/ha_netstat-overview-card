@@ -2,6 +2,8 @@
 
 A Home Assistant **Lovelace** custom card for displaying network connection data from a sensor (`sensor.network_connections`). The table features **sticky headers**, ensuring the column names remain visible when scrolling. The card is designed for **Panel Mode**, making it fill the entire screen.
 
+![preview](/images/preview.png)
+
 ## Features
 
 - Displays live network connections (Source, Source Port, Target, Destination Port).
