@@ -10,13 +10,11 @@ A Home Assistant **Lovelace** custom card for displaying network connection data
 - Customizable header background color (`var(--primary-color)`) with **white text and borders**.
 - Integrates seamlessly with Home Assistant.
 
----
 
 ## Requirements
 
 - **Home Assistant** with Lovelace UI.
 
----
 
 ## Installation
 
@@ -48,7 +46,6 @@ lovelace:
 1. **Restart** Home Assistant.
 2. **Clear your browser cache** (Ctrl+Shift+R or equivalent) to ensure the new card loads correctly.
 
----
 
 ## Usage
 
@@ -73,7 +70,6 @@ cards:
   - type: custom:netstat-overview-card
 ```
 
----
 
 ## Sensor Data Example
 
@@ -96,7 +92,6 @@ sensor.network_connections:
 
 The card will automatically display each connection in a scrollable table.
 
----
 
 ## Customizing the Card
 
@@ -115,7 +110,6 @@ If the header text appears to scroll but the background does not:
 - Sticky behavior is optimized for **modern browsers** (Chrome, Firefox, Edge, latest Safari).
 - The card uses `border-collapse: separate; border-spacing: 0;` to avoid 1px transparency issues.
 
----
 
 ## Troubleshooting
 
@@ -131,7 +125,6 @@ If the header text appears to scroll but the background does not:
 - Ensure this card is the **only card** in the view.
 - If multiple cards are needed, disable **Panel Mode** and set a `max-height` in the card’s CSS.
 
----
 
 ## License
 
@@ -151,7 +144,6 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 ```
 
----
 
 ## Contributions
 
