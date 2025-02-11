@@ -8,23 +8,13 @@ A Home Assistant **Lovelace** custom card for displaying network connection data
 - **Sticky header row** stays visible while scrolling.
 - Fully responsive and optimized for **Panel Mode** in Lovelace.
 - Customizable header background color (`var(--primary-color)`) with **white text and borders**.
+- Integrates seamlessly with Home Assistant.
 
 ---
 
-## Prerequisites
+## Requirements
 
-1. A Home Assistant sensor named `sensor.network_connections`.
-   - The sensor must have an attribute `connections` that is an **array** of objects with these properties:
-     ```json
-     {
-       "source": "...",
-       "sport": "...",
-       "target": "...",
-       "port": "..."
-     }
-     ```
-
-2. Home Assistant **version 0.115+** for custom card support.
+- **Home Assistant** with Lovelace UI.
 
 ---
 
@@ -143,13 +133,34 @@ If the header text appears to scroll but the background does not:
 
 ---
 
-## Credits & Contributions
-This card was created for Home Assistant users needing a **clean, easy-to-read** netstat-style overview.
+## License
 
-### Contributions
-If you have improvements, feel free to contribute via GitHub (if applicable) or share feedback!
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+```
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+```
 
 ---
 
-Enjoy your live **Netstat Overview Card** in Home Assistant! 🚀
+## Contributions
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## Issues
+
+If you encounter any problems or have suggestions for improvement, please open an issue in this repository.
+
+## Acknowledgments
+- The Home Assistant community for inspiration and support.
 
