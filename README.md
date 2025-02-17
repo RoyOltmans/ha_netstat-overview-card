@@ -22,7 +22,7 @@ A Home Assistant **Lovelace** custom card for displaying network connection data
 
 ### Step 1: Download the Card
 
-1. **Download** or copy `netstat-overview-card.js`.
+1. **Download** or copy `ha_netstat-overview-card.js`.
 2. Place it in your Home Assistant **`www` folder** (e.g., `/config/www/`).
 
 ### Step 2: Add as a Lovelace Resource
@@ -30,7 +30,7 @@ A Home Assistant **Lovelace** custom card for displaying network connection data
 #### UI Mode
 1. Navigate to **Settings** → **Dashboards** → **Resources**.
 2. Click the **+ Add Resource** button.
-3. Enter the URL: `/local/netstat-overview-card.js`.
+3. Enter the URL: `/local/ha_netstat-overview-card.js`.
 4. Set **Resource Type** to **JavaScript Module**.
 5. Click **Create**.
 
@@ -40,7 +40,7 @@ Add the following to your `configuration.yaml`:
 ```yaml
 lovelace:
   resources:
-    - url: /local/netstat-overview-card.js
+    - url: /local/ha_netstat-overview-card.js
       type: module
 ```
 
